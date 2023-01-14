@@ -67,6 +67,14 @@ li {
     padding: 20px 0;
 }
 
+.banner-area img {
+
+    background-image: url("images/Circle\ design.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 30px;
+}
+
 
 section {
     width: 100%;
@@ -230,10 +238,7 @@ footer {
         grid-template-columns: repeat(4,1fr);
         grid-gap: 20px;
         justify-items: center;
-        justify-content: center;
-        align-items: center;
-        align-content: center;
-
+        
     }
 
     .collections {
